@@ -20,7 +20,7 @@ jobs:
           ~/.m2/repository/
         key: maven-linux-aws-glue
     - name: Build with Maven
-      run: mvn -B package -s $GITHUB_WORKSPACE/.github/settings.xml --file pom.xml
+      run: mvn -B package -s $GITHUB_WORKSPACE/.github/settings.xml --file pom.xml -DSkipTests
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.3
       with:
