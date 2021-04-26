@@ -15,11 +15,6 @@
           <id>github</id>
           <url>https://maven.pkg.github.com/provectus/*</url>
         </repository>
-        <repository>
-          <id>central</id>
-          <name>central</name>
-          <url>https://repo.maven.apache.org/maven2</url>
-        </repository>
       </repositories>
     </profile>
   </profiles>
